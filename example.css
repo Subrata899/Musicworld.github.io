@@ -89,6 +89,10 @@ background:pink;
 	from{color:orange;}
 	to{color:red;}
 }
+input::placeholder{
+	text-align:center;
+	color:red;
+}
 body{
 background-image:url("m5.jpg");
 background-repeat:no-repeat;
