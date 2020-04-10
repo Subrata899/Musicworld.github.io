@@ -5,15 +5,6 @@ html,body{
 	margin:0;
 	padding:0;
 }
-.row::after {
-	content: "";
-	clear:both;
-	display:table;
-}
-div[class*="col-"] {
-	float:left;
-	width:100%;
-}
 .dd{
    position:relative;
    display:inline;
@@ -174,3 +165,89 @@ footer{
     padding-top:30px;
 	font-weight:bold;
 }
+@media(max-width:1275px){
+	.icons{
+		padding-left:90px;
+	}
+	.heading{
+	font-size:70px;
+	padding-left:330px;
+	}
+	.links{
+	font-size:17px;
+	padding-left:180px;
+	}
+}
+@media(max-width:1117px){
+	.heading{
+	font-size:53px;
+	padding-left:310px;
+	}
+	.icons{
+		padding-left:60px;
+	}
+	.icons .fa{
+		font-size:19px;
+	}
+	.links{
+	padding-left:150px;
+	}
+	.dd-content{
+		margin-top:25px;
+	}
+	h1{
+	font-size:60px;
+	}
+	
+}
+@media(max-width:1060px){
+	.heading{
+	font-size:53px;
+	padding-left:220px;
+	}
+	.search{
+	padding-top:40px;
+	}
+	.icons{
+		padding-left:30px;
+	}
+	.icons .fa{
+		font-size:15px;
+	}
+	.links{
+	font-size:17px;
+	padding-left:0px;
+	}
+	.pre-links{
+	font-size:50px;
+	}
+}
+@media(max-width:915px){
+	h1{
+	font-size:50px;
+	}	
+}
+@media(max-width:502px){
+	.icons{
+		position:absolute;
+		float:left;
+	}
+	.pre-links{
+	font-size:30px;
+	}
+   .heading{
+	  padding-left:55px;
+	  font-size:40px
+	  }	
+    h1{
+	font-size:42px;
+	}
+	.dd-content{
+		margin-top:15px;
+	}
+}
+	
+	
+
+	
+	
